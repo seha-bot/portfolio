@@ -1,0 +1,8 @@
+(
+    content: [
+        "src/*",
+    ],
+    extend_collection_options: Some({
+        "rs": Html
+    })
+)

@@ -1,0 +1,9 @@
+[[hooks]]
+stage = "pre_build"
+command = "railwind"
+
+[clean]
+cargo = true
+
+[watch]
+ignore = [ "railwind.css" ]
